@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+          url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap");
         </style>
         <script
           id="MathJax-script"
