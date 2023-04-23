@@ -19,7 +19,7 @@ export const Sidebar: FC<SidebarProps> = ({ blogs, tags, className }) => {
         <ul>
           {tags.map((tag: Tag) => {
             return (
-              <li className="my-1 p-2 bg-emerald-200 rounded-md">
+              <li key={tag.id} className="my-1 p-2 bg-emerald-200 rounded-md">
                 <Link href={`/tag/${tag?.id}`}>{tag?.name}</Link>
               </li>
             );
