@@ -6,7 +6,9 @@ export const Header = () => {
     <header className="header">
       <div className="text-center bg-cyan-800 p-5 border-dashed border-b-8 border-stone-900">
         <nav>
-          <h1 className="text-white">Yuzu Pro Blog</h1>
+          <h1 className="text-white">
+            <Link href="/">Yuzu Pro Blog</Link>
+          </h1>
           <ul>
             <li className="inline-block mx-10 text-white hover:underline">
               <Link href="/">ブログ</Link>

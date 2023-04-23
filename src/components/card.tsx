@@ -24,7 +24,7 @@ export const Card: React.FC<CardProps> = ({
                 src={
                   blog.eyecatch?.url || "/assets/images/default_eyecatch.png"
                 }
-                className="w-full"
+                className="w-full p-5"
                 alt={blog.title}
               />
             </div>

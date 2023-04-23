@@ -19,6 +19,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.3.1
     version: 13.3.1(eslint@8.39.0)(typescript@5.0.4)
+  mathjax:
+    specifier: ^3.2.2
+    version: 3.2.2
   microcms-js-sdk:
     specifier: ^2.3.3
     version: 2.3.3
@@ -1716,6 +1719,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
+    dev: false
+
+  /mathjax@3.2.2:
+    resolution: {integrity: sha512-Bt+SSVU8eBG27zChVewOicYs7Xsdt40qm4+UpHyX7k0/O9NliPc+x77k1/FEsPsjKPZGJvtRZM1vO+geW0OhGw==}
     dev: false
 
   /merge2@1.4.1:
