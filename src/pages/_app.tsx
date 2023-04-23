@@ -2,14 +2,6 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-const mathConfig = `MathJax.Hub.Config({ // or window.MathJax.Hub.Config
-  tex2jax: {
-    inlineMath: [['$','$']],
-    displayMath: [['$$','$$']]
-  },
-  CommonHTML: { matchFontHeight: false }
-  });`;
-
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
